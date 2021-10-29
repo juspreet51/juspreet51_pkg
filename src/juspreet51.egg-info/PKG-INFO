@@ -1,12 +1,13 @@
 Metadata-Version: 2.1
 Name: juspreet51
-Version: 0.0.6b4
-Summary: A small example package
+Version: 0.0.7
+Summary: A EDA & Modellling assist library
 Home-page: https://github.com/juspreet51/juspreet51_pkg
 Author: Jaspreet Singh
 Author-email: contact@juspreet51.in
 License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/juspreet51/juspreet51_pkg
+Project-URL: source, https://github.com/juspreet51/juspreet51_pkg
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
@@ -15,15 +16,7 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
-This tutorial uses a simple project named example_package
-__init__.py is required to import the directory as a package, and should be empty.
+# Juspreet51
+- [Steps followed](https://packaging.python.org/tutorials/packaging-projects/) to create the pacakge
 
-example.py is an example of a module within the package that could contain the logic (functions, classes, constants, etc.) of your package.
-
-# Example Package
-
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
 
