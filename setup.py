@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="juspreet51",
-    version="0.0.8001",
+    version="0.0.0081",
     author="Jaspreet Singh",
     author_email="contact@juspreet51.in",
     description="An EDA & modellling assist library",
