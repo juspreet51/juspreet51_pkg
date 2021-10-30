@@ -1,13 +1,12 @@
 Metadata-Version: 2.1
 Name: juspreet51
-Version: 0.0.800b4
+Version: 0.0.8001
 Summary: An EDA & modellling assist library
 Home-page: https://github.com/juspreet51/juspreet51_pkg
 Author: Jaspreet Singh
 Author-email: contact@juspreet51.in
 License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/juspreet51/juspreet51_pkg
-Project-URL: source, https://github.com/juspreet51/juspreet51_pkg
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
