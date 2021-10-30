@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: juspreet51
+Version: 0.0.800b3
+Summary: An EDA & modellling assist library
+Home-page: UNKNOWN
+Author: Juspreet51.in (Jaspreet ingh)
+Author-email: <contact@juspreet51.in>
+License: UNKNOWN
+Keywords: python,juspreet51,sklearn
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package for EDA & modellling assist developed by Juspreet51
+
