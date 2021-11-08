@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: juspreet51
-Version: 0.0.81
+Version: 0.0.82
 Summary: An EDA & modellling assist library
 Home-page: https://github.com/juspreet51/juspreet51_pkg
 Author: Jaspreet Singh
@@ -24,7 +24,7 @@ License-File: LICENSE
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/BMSMBmuweD)
 
 
-Juspreet51 is a library for making EDA and Modelling in Python quick and convinient. It is utilizes:
+Juspreet51 is a library for making EDA and Modelling in Python quick and convinient. It's built on top of:
 - pandas
 - numpy
 - matplotlib 
@@ -35,30 +35,65 @@ Juspreet51 is a library for making EDA and Modelling in Python quick and convini
 - and others
 
 ___
-To install `juspreet51`
-- open your jupyter notebook
-- and run
+To install `juspreet51` 
+<br>
+- Open your `Anaconda Prompt`
+- type in
+```python
+pip install juspreet51
+```
+- and hit Enter
 
+<br>
+
+- Or simply, open your `Jupyter Notebook`
+- and type in 
 ```python
 % pip install juspreet51
 ```
+- and press `Shift+Enter`
 
-Here are some of the features that `juspreet51` offers:
-```python
-from juspreet51 import visualizations as js51viz
-js51viz.draw_piechart()
-```
 ___
 
-To visualize with your own data, run
+# Demo Notebooks:
+<br>
+<ol>
+    <li>
+    
+1) js51_metrics.[plot_confusion_matrix()](https://github.com/juspreet51/juspreet51_pkg/tree/main/src/juspreet51/demo_nbs/plot_confusion_matrix.ipynb)
 ```python
-js51viz.draw_piechart(dataframe['column_name'])
-
-# Taking housing dataset example, and plotting pie chart for ocean_proximity value
-# Replace "https://...link/..." with data of your choice
-house_val = pd.read_csv('https://raw.githubusercontent.com/juspreet51/ml_templates/main/datasets/regression/housing/housing.csv')
-
-js51viz.draw_piechart(house_val["ocean_proximity"])
+from juspreet51 import metrics as js51_metrics
+js51_metrics.plot_confusion_matrix(y_test, predictions)
 ```
+<img 
+src="./src/juspreet51/media/plot_cfm_output.png" 
+style="width:45%;  display: block; margin-left: auto;  margin-right: auto;">
+</li>
+
+<li> 
+
+js51_viz.[draw_piechart()](https://github.com/juspreet51/juspreet51_pkg/tree/main/src/juspreet51/demo_nbs/draw_piechart.ipynb)
+
+```python
+from juspreet51 import visualizations as js51_viz
+js51_viz.draw_piechart(dataframe['column_name'])
+```
+<img 
+src="./src/juspreet51/media/draw_piechart.png" 
+style="width:55%;  display: block; margin-left: auto;  margin-right: auto;">
+</li>
+
+## Future Release:
+
+<li> 
+
+ js51_lin_model.[LinearRegression()](#)
+<br>
+```python
+from juspreet51 import linear_model as js51_lin_model
+```
+</li>
+</ol>
+
 ___
 

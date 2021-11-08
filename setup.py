@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="juspreet51",
-    version="0.0.0081",
+    version="0.0.0082",
     author="Jaspreet Singh",
     author_email="contact@juspreet51.in",
     description="An EDA & modellling assist library",
@@ -21,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    install_requires = ["numpy","matplotlib","pandas", "seaborn", "plotly"],
+    install_requires = ["pandas", "numpy","matplotlib","pandas", "seaborn", "plotly", "sklearn"],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
 )
