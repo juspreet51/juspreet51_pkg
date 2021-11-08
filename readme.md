@@ -43,13 +43,13 @@ ___
 <ol>
     <li>
     
-1) js51_metrics.[plot_confusion_matrix()](https://github.com/juspreet51/juspreet51_pkg/tree/main/src/juspreet51/demo_nbs/plot_confusion_matrix.ipynb)
+ js51_metrics.[plot_confusion_matrix()](https://github.com/juspreet51/juspreet51_pkg/tree/main/src/juspreet51/demo_nbs/plot_confusion_matrix.ipynb)
 ```python
 from juspreet51 import metrics as js51_metrics
 js51_metrics.plot_confusion_matrix(y_test, predictions)
 ```
 <img 
-src="./src/juspreet51/media/plot_cfm_output.png" 
+src="https://raw.githubusercontent.com/juspreet51/juspreet51_pkg/main/src/juspreet51/media/plot_cfm_output.PNG" 
 style="width:45%;  display: block; margin-left: auto;  margin-right: auto;">
 </li>
 
@@ -62,8 +62,8 @@ from juspreet51 import visualizations as js51_viz
 js51_viz.draw_piechart(dataframe['column_name'])
 ```
 <img 
-src="./src/juspreet51/media/draw_piechart.png" 
-style="width:55%;  display: block; margin-left: auto;  margin-right: auto;">
+src="https://raw.githubusercontent.com/juspreet51/juspreet51_pkg/main/src/juspreet51/media/draw_piechart.PNG" 
+style="width:35%;  display: block; margin-left: auto;  margin-right: auto;">
 </li>
 
 ## Future Release:
